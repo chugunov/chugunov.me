@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,16 +7,119 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Andrey Chugunov</title>
   <style>
+    body,
+    html,
+    ul {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      padding: 100px 16px 100px;
+      font-size: 20px;
+      line-height: 1.5
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 1.25;
+      margin: .5em 0 0
+    }
+
+    img {
+      border-radius: 50%;
+      margin: 32px;
+      width: 200px;
+    }
+
+    @media (min-width:40em) {
+      body {
+        font-size: 20px;
+        padding: 80px 64px 80px
+      }
+
+      h1 {
+        font-size: 48px
+      }
+
+      img {
+        margin: 32px;
+        width: 200px;
+      }
+    }
+
+    @media (min-width:52em) {
+      body {
+        font-size: 24px;
+        padding: 80px 64px 80px
+      }
+
+      h1 {
+        font-size: 64px
+      }
+
+      img {
+        margin: 32px;
+        width: 250px;
+      }
+    }
+
+    @media (min-width:62em) {
+      body {
+        font-size: 24px;
+        padding: 100px 64px 112px
+      }
+
+      h1 {
+        font-size: 64px
+      }
+
+      img {
+        margin: 44px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #0075ff;
+      background: 0 100%/100% 1px repeat-x;
+      background-image: linear-gradient(rgba(0, 117, 255, .13), rgba(0, 117, 255, .13))
+    }
+
+    a:hover {
+      color: #f00000
+    }
+
+    a:visited {
+      color: #8d39d0
+    }
+
+    ul li {
+      display: inline;
+    }
   </style>
 </head>
 
 <body>
 
+  <header>
+    <h1>Hey I'm Andrey&nbsp;Chugunov</h1>
+  </header>
+
   <section>
-    Hey, I'm Andrey Chugunov!
+    <picture>
+      <img src="./img/avatar.png" alt="avatar">
+    </picture>
+    <ul>
+      <li><a href="https://github.com/chugunov">github</a></li>&nbsp;•&nbsp;
+      <li><a href="https://gitlab.com/chugun_off">gitlab</a></li>&nbsp;•&nbsp;
+      <li><a href="https://linkedin.com/chugun_off">linkedin</a></li>&nbsp;•&nbsp;
+      <li><a href="https://twitter.com/chugun_off">twitter</a></li>&nbsp;•&nbsp;
+      <li><a href="mailto:andrey@chugunov.me">email</a></li>
+    </ul>
   </section>
-  <hr>
 
 </body>
 
